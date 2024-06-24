@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(egor-lyfar-jHMJrp33sUg-unsplash.jpg);
+    background-repeat: repeat;
+    background-size: 500px;
+}
+
+.logo{
+    width: 1500px;
+    padding: 10px o;
+    cursor: pointer;
+    position: absolute;
+    display: inline-block;
+    height: 300px;
+    
+    
+}
+.content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    
+    
+}
+.content h1{
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Caveat', cursive;
+    color:whitesmoke;
+}
+.content h1 span{
+    color: yellow;
+}
+
+.time{
+    display: flex;
+}
+.time div{
+    flex-basis:500px;
+    margin-left: 10px;
+}
+.time div p{
+    font-size: 70px;
+    margin-bottom:-14px;
+}
+
+
